@@ -173,7 +173,7 @@ body {
     border-radius: 10px;
 }
 
-
+/*Conteudo*/
 .conteudo-titulo{
     color: #ffffff;
     font-weight: bolder;
@@ -218,17 +218,18 @@ body {
 
 /** Sobre Nós **/
 .creator-container {
+    margin-top: 10%;
     display: flex;
     gap: 20px;
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
 }
 
 .creator {
     background-color: rgba(29, 49, 128, 0.5);
     padding: 20px;
-    border-radius: 15px;
-    text-align: center;
+    border-radius: 30px;
+    text-align: center  ;
     flex: 1;
     margin: 10px;
 }
@@ -243,6 +244,7 @@ body {
 .creator h2 {
     margin: 10px 0;
     color: #ffffff;
+
 }
 
 .creator p {
@@ -261,8 +263,8 @@ body {
      margin-top: auto;
 }
 
-/* Estilo responsivo para dispositivos móveis */
-@media (max-width: 1080px) {
+/*Celular*/
+@media (max-width: 1024px) {
     .cabeçalho {
         display: none;
         
@@ -394,7 +396,7 @@ body {
     }
 }
 
-@media(max-width: 1080px){
+@media(max-width: 1024px){
     .conteudo-titulo{
         color: #ffffff;
         font-weight: bolder;
@@ -416,4 +418,14 @@ body {
         margin-bottom: 10%;
         color:#ffffff
     }
+
+}
+
+@media(max-width:1024px){
+  .creator-container{ 
+    margin-top: 10%;
+    display: table-column;
+    width: 90%;
+
+  }
 }
