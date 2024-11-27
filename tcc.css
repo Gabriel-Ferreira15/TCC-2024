@@ -228,9 +228,9 @@ body {
 .creator {
     background-color: rgba(29, 49, 128, 0.5);
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 50px;
     text-align: center  ;
-    flex: 1;
+    flex: 100px;
     margin: 10px;
 }
 
@@ -238,7 +238,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-bottom: 15px;
+    margin-bottom: 105px;
 }
 
 .creator h2 {
@@ -427,4 +427,8 @@ body {
     display: table-column;
     width: 90%;
   }
+  .creator{
+  margin-bottom: 200px;
 }
+  }
+  
